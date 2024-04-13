@@ -253,7 +253,7 @@ if not hero_died:
 else:
     print_slowly(f"You got killed by {battle_monster}\nYou lost the game!\n")
 if trophys:
-    print_slowly(f"Your inventory contains: {", ".join(trophys)}")
+    print_slowly(f"Your inventory contains: {', '.join(trophys)}")
 
 print_slowly("""\nSpeedrun-Info:
 Max-Speed win is 8 turns.
